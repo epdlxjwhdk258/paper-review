@@ -1,24 +1,23 @@
-# DMoN (Deep Modularity Networks)
+## DMoN (Deep Modularity Networks)
 
-Paper
+**Paper**  
 https://arxiv.org/abs/2006.16904
 
-## One-line Summary
-GCN 기반 differentiable graph clustering 방법
+### One-line Summary
+A GCN-based differentiable graph clustering method.
 
-## Problem
-기존 community detection은 non-differentiable이라
-deep learning과 결합이 어려움
+### Problem
+Traditional community detection methods are **non-differentiable**, making them difficult to integrate with deep learning frameworks.
 
-## Method
-modularity maximization을 differentiable하게 설계
+### Method
+Designs **modularity maximization as a differentiable objective**, enabling end-to-end training with neural networks.
 
-## Key Idea
-- 🔥 modularity loss
-- soft cluster assignment
+### Key Ideas
+- 🔥 **Modularity Loss**: Optimizes clustering by maximizing graph modularity.
+- **Soft Cluster Assignment**: Assigns nodes to clusters probabilistically instead of hard assignments.
 
-## Result
-graph clustering 성능 개선
+### Result
+Improves performance in graph clustering tasks while enabling integration with deep learning models.
 
-## My Insight
-keyword graph clustering에 적용
+### My Insight
+Can be applied to **keyword graph clustering** to extract topic communities from keyword networks.
