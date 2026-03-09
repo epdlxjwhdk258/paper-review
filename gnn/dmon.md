@@ -4,7 +4,7 @@
 https://arxiv.org/abs/2006.16904
 
 ### One-line Summary
-- GCN-based differentiable graph clustering method which maximizes modularity.
+GCN-based differentiable graph clustering method which maximizes modularity.
 
 ### Problem
 Traditional community detection methods are **non-differentiable**, making them difficult to integrate with deep learning frameworks.
