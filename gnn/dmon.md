@@ -4,13 +4,7 @@
 https://arxiv.org/abs/2006.16904
 
 ### One-line Summary
-End-to-end Graph Clustering Framework
-
-### Problem
-Traditional community detection methods are **non-differentiable**, making them difficult to integrate with deep learning frameworks.
-
-### Method
-Designs **modularity maximization as a differentiable objective**, enabling end-to-end training with neural networks.
+Designs modularity maximization as a differentiable objective, enabling **end-to-end** training with neural networks.
 
 ### Key Ideas
 - 🔥 **Modularity Loss**: Optimizes clustering by maximizing graph modularity.
@@ -18,9 +12,6 @@ Designs **modularity maximization as a differentiable objective**, enabling end-
 
 ### Result
 Improves performance in graph clustering tasks while enabling integration with deep learning models.
-
-### My Insight
-Can be applied to **keyword graph clustering** to extract topic communities from keyword networks.
 
 ### Implementation
 https://github.com/Soonwoo3380/ml-implementation/tree/main/dmon
